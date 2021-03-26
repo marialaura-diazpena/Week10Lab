@@ -17,6 +17,10 @@
         <servlet-name>NoteServlet</servlet-name>
     </filter-mapping>
     <filter-mapping>
+    <filter>
+        <filter-name>AdminFilter</filter-name>
+        <filter-class>filters.AdminFilter</filter-class>
+    </filter>    
         <filter-name>AdminFilter</filter-name>
         <servlet-name>AdminServlet</servlet-name>
     </filter-mapping>
